@@ -1,0 +1,55 @@
+:root{
+    --primary-color: #2ec49c;
+    --text-primary-color: #2ec49c;
+    --text-black: #000;
+    --text-white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', 'Avenir Next', sans-serif;
+}
+
+
+
+/* Section Home Start */
+
+#home #hero .heading{
+    font-size: 4.5rem;
+}
+
+#home #hero .heading span{
+    color: #2ec49c;
+}
+
+#home #hero .desc{
+    font-size: 1.3rem;
+}
+
+#home #hero .point-advantages{
+    margin-top: 10rem;
+}
+
+#home #hero .point-advantages .advantages{
+    color: var(--text-primary-color);
+}
+
+#dashboard .filter-data .form-select,
+#dashboard .filter-data .input-group input{
+    height: 50px;
+}
+
+#dashboard .filter-data .create a{
+    height: 50px;
+    padding: 12px 18px;
+}
+
+#create .d-flex button{
+    height: 50px;
+    padding: 12px 36px;
+}
